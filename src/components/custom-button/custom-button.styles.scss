@@ -1,0 +1,29 @@
+.custom-button{
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    padding: 2em;
+    width: 45%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    
+
+    &:hover{
+        background-color: rgb(74, 213, 74);
+        color: white;
+        border: 1px solid white;
+    }
+
+    &.white-button{
+        background-color: white;
+        color: black;
+
+        &:hover{
+            background-color: rgb(198, 194, 194);
+            color: black;
+            border: none;
+        }
+    }
+}
